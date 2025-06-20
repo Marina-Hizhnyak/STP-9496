@@ -10,7 +10,7 @@ export default defineConfig(({ command }) => {
     define: {
       [command === 'serve' ? 'global' : '_global']: {},
     },
-    base: '/STP-9496/',
+    base: process.env.NODE_ENV === 'production' ? '/STP-9496/' : '/',
     root: 'src',
     build: {
       sourcemap: true,
