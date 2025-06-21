@@ -1,5 +1,16 @@
 .header {
-  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 320px;
+  padding-left: 16px;
+  padding-right: 20px;
+}
+
+.logo {
+  left: 16px;
+  display: none;
 }
 
 .burger {
@@ -21,12 +32,46 @@
   object-fit: contain;
 }
 
-@media screen and (min-width: 1440px) {
+.nav-list {
+  display: none;
+}
+.nav-item {
+  /* display: none; */
+}
+
+@media screen and (min-width: 1200px) {
   .header {
+    margin: 0 auto;
     border-radius: 16px;
     width: 1072px;
     height: 100px;
     margin-top: 24px;
     background-color: #fed7aa;
+  }
+
+  .logo {
+    display: block;
+    left: 16px;
+    width: 56px;
+    height: 56px;
+  }
+
+  .nav-list {
+    width: 843px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    justify-content: space-between;
+  }
+  .nav-item {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    color: #171717;
+  }
+
+  .burger {
+    display: none;
   }
 }
