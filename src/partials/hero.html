@@ -1,12 +1,16 @@
 <section class="hero">
-  <div class="hero__container">
+  <div class="container hero__container">
     <div class="hero__phones">
-      <img src="/img/phones.png" alt="Game screen 1" />
+      <picture>
+        <source srcset="/img/phones-desktop.png" media="(min-width: 1200px)" />
+        <img src="/img/phones-mobile.png" alt="Phone image" />
+      </picture>
     </div>
     <div class="hero__content">
       <h1 class="hero__title">Container Adventure</h1>
 
-      <a href="#" class="hero__btn">
+      <a href="https://play.google.com/store/apps/details?id=com.djrt.drtg&hl=en&gl=us " target="_blank"
+        rel="noopener noreferrer" class="hero__btn">
         <img src="/img/GooglePlay.png" alt="Google Play" />
         Google Play
       </a>
