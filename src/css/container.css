@@ -1,14 +1,18 @@
-/* Styles for Mobile devices */
 .container {
-  min-width: 320px;
-  max-width: 375px;
+  width: 100%;
+  width: 320px;
   margin: 0 auto;
   padding: 0 16px;
 }
-/* Styles for Desktop devices */
-@media only screen and (min-width: 1200px) and (max-width: 1439px) {
+
+@media (min-width: 1200px) {
   .container {
-    width: 1200px;
     padding: 0;
+  }
+}
+
+@media (min-width: 1440px) {
+  body {
+    background-color: #f3f4f6;
   }
 }

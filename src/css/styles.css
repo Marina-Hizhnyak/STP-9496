@@ -11,5 +11,8 @@
 
 /* Sections style */
 @import url('./header.css');
+<<<<<<< HEAD
+=======
 @import url('./hero.css');
+>>>>>>> origin/main
 @import url('./footer.css');

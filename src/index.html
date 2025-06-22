@@ -1,31 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/img/Favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-  <meta charset="UTF-8" />
-  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <!-- Google Fonts: DynaPuff & Nunito -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=DynaPuff&family=Nunito:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>STP-9496</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="/css/burger-menu.css" />
+    <link rel="stylesheet" href="/css/terms.css" />
+    <link rel="stylesheet" href="/css/privacy.css" />
+    <link rel="stylesheet" href="/css/cookies.css" />
+  </head>
+  <body class="wrapper">
+    <load src="./partials/header.html" />
 
-  <!-- Google Fonts: DynaPuff & Nunito -->
-  <link href="https://fonts.googleapis.com/css2?family=DynaPuff&family=Nunito:wght@400;500;600;700&display=swap"
-    rel="stylesheet" />
+    <main>
+      <load src="./partials/hero.html" />
+      <load src="./partials/burger-menu.html" />
+      <!-- <load src="./partials/terms.html" /> -->
+      <!-- <load src="./partials/privacy.html" /> -->
+      <!-- <load src="./partials/cookies.html" /> -->
+    </main>
 
-
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>STP-9496</title>
-  <link rel="stylesheet" href="./css/styles.css" />
-</head>
-
-<body>
-  <load src="./partials/header.html" icon-path="img/sprite.svg#logo" />
-
-  <main>
-    <!-- Loads the specified .html file -->
-    <load src="./partials/hero.html" />
-  </main>
-
-  <load src="./partials/footer.html" />
-
-  <script type="module" src="./main.js"></script>
-</body>
-
+    <load src="./partials/footer.html" />
+    <script type="module" src="./main.js"></script>
+  </body>
 </html>
