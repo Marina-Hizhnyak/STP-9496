@@ -1,22 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/STP-9496/img/Favicon.png" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- Google Fonts: DynaPuff & Nunito -->
-    <link
-      href="https://fonts.googleapis.com/css2?family=DynaPuff&family=Nunito:wght@400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>STP-9496</title>
-    <script type="module" crossorigin src="/STP-9496/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/STP-9496/assets/index-9edbJbfX.css">
-  </head>
-  <body class="wrapper">
-    <header>
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/STP-9496/img/Favicon.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Google Fonts: DynaPuff & Nunito -->
+  <link href="https://fonts.googleapis.com/css2?family=DynaPuff&family=Nunito:wght@400;500;600;700&display=swap"
+    rel="stylesheet" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>STP-9496</title>
+  <script type="module" crossorigin src="/STP-9496/index.js"></script>
+  <link rel="stylesheet" crossorigin href="/STP-9496/assets/index-B5BMngHU.css">
+</head>
+
+<body class="wrapper">
+  <header>
   <div class="container header">
     <a href="index.html"
       ><img src="/STP-9496/img/logo-icon.png" alt="Menu" class="logo"
@@ -63,16 +63,20 @@
 </header>
 
 
-    <main>
-      <section class="hero">
-  <div class="hero__container">
+  <main>
+    <section class="hero">
+  <div class="container hero__container">
     <div class="hero__phones">
-      <img src="/STP-9496/assets/phones-BlU2vW6w.png" alt="Game screen 1" />
+      <picture>
+        <source srcset="/STP-9496/assets/phones-desktop-DmhuxuOH.png" media="(min-width: 1200px)" />
+        <img src="/STP-9496/assets/phones-mobile-BlU2vW6w.png" alt="Phone image" />
+      </picture>
     </div>
     <div class="hero__content">
       <h1 class="hero__title">Container Adventure</h1>
 
-      <a href="#" class="hero__btn">
+      <a href="https://play.google.com/store/apps/details?id=com.djrt.drtg&hl=en&gl=us " target="_blank"
+        rel="noopener noreferrer" class="hero__btn">
         <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAFVSURBVHgB7ZS7SsNQHId/p1gEl57BVUhXp7g5dnWRDA4ODnkBIW9gMlRwUaogKmJcuhUdFEeT1UEEH8AELwj1khRKUND8zQWxVrFJE8WhH4RczjnfR0I4wID/TXNfxK9hkYhLl/C4cQZHFdAnhR/GOPwS0J4VQaMWWlW9n1Ch54woMge8lmSwYupQ70BnJDwTwpABZ1FJsjRZoDsCCGC0Ardqjd/Py/kEvkbA6UmoPzd0ug5+iStUsgc6ItwfhuFtQ/Rvw88mBCNGENLJiq4zBAJ4uwhj+QLiXevzAEHqnps6wD0PxtoCxPMmUKsADyPhYzc4NLygzMqwMwUi+Y0d34TynclaJB6DGshdZHkDvb7+ISeYKLAJtnqsfCd+Zwgp5PKJEYsJGjtsmEnWJQrEctMG+Ro72NtFLoSbnU20tbTp0PSMSpLEkSsW8amjUyV/8YC/5g33ro4sgZ0iswAAAABJRU5ErkJggg==" alt="Google Play" />
         Google Play
       </a>
@@ -92,7 +96,36 @@
     </div>
   </div>
 </section>
-      <div class="burger-menu" data-menu hidden>
+    <section class="about-section">
+  <div class="section-title">
+    <span class="section-text">About</span>
+  </div>
+
+  <!-- Desktop layout -->
+  <div class="about-content">
+    <!-- Desktop bear -->
+    <img src="/STP-9496/assets/bear-desktop-DS4wBjL9.png" alt="Bear Desktop" class="about-img show-desktop" />
+
+    <!-- Text -->
+    <div class="about-text">
+      <h3>Welcome to Container Adventure</h3>
+      <p>
+        Container Adventure is a fast-paced, visually satisfying puzzle game where every level brings a new supermarket
+        layout to conquer. Slide, swap, and eliminate matching products as you navigate through aisles filled with
+        colorful chaos.
+        Whether you're a casual player looking to relax or a strategy-minded puzzler seeking the perfect combo chain,
+        this game delivers endless entertainment with a hint of mental challenge.
+      </p>
+
+      <!-- Mobile bear image placed BELOW text -->
+      <img src="/STP-9496/assets/bear-mobile-CbquKXpg.png" alt="Bear Mobile" class="about-img show-mobile" />
+    </div>
+
+    <!-- Desktop rabbit -->
+    <img src="/STP-9496/assets/rabbit-C0c5_avF.png" alt="Rabbit" class="about-img show-desktop" />
+  </div>
+</section>
+    <div class="burger-menu" data-menu hidden>
     <nav class="burger-nav">
         <ul class="burger-nav-list">
           <li class="burger-nav-item">
@@ -140,7 +173,8 @@
   </div>
 </div>
 
-      <!-- <div class="terms">
+
+    <!-- <div class="terms">
   <button type="button" class="go-to-home">
     <span> <img src="/img/Arrow - Left.png" width="17" height="15" /></span>Go
     to Home
@@ -262,7 +296,7 @@
   </ul>
 </div>
  -->
-      <!-- <div class="privacy">
+    <!-- <div class="privacy">
   <button type="button" class="go-to-home">
     <span> <img src="/img/arrow - Left.png" width="17" height="15" /></span>Go
     to Home
@@ -367,7 +401,7 @@
   </ul>
 </div>
  -->
-      <!-- <div class="cookies">
+    <!-- <div class="cookies">
     <button type="button" class="go-to-home">
       <span> <img src="/img/arrow - Left.png" width="17" height="15" /></span>Go
       to Home
@@ -472,9 +506,9 @@
     </ul>
   </div>
    -->
-    </main>
+  </main>
 
-    <footer>
+  <footer>
   <div class="container footer">
     <nav>
       <ul class="footer-nav">
@@ -490,5 +524,6 @@
   </div>
 </footer>
 
-  </body>
+</body>
+
 </html>
