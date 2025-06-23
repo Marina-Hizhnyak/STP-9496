@@ -1,0 +1,136 @@
+.gameplay-section {
+  padding: 24px 0;
+  font-family: sans-serif;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.section-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 16px;
+}
+
+.section-title .line {
+  flex: 1;
+  height: 1px;
+  background-color: #000;
+}
+
+.section-title h2 {
+  margin: 0 4px;
+  font-size: 20px;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 600;
+}
+
+.gameplay-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.gameplay-image {
+  margin-top: 20px;
+  max-width: 100%;
+  order: 2;
+}
+
+.gameplay-image img {
+  width: 288px;
+  height: auto;
+}
+
+.gameplay-text {
+  width: 288px;
+  order: 1;
+}
+
+.gameplay-text h3 {
+  font-family: 'Nunito', sans-serif;
+  font-size: 20px;
+  margin-bottom: 16px;
+  font-weight: 400;
+}
+
+.gameplay-text p {
+  font-family: 'Nunito', sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.gameplay-text ul {
+  font-family: 'Nunito', sans-serif;
+  font-size: 14px;
+  list-style: none;
+  padding: 8px 0;
+}
+
+.gameplay-text li {
+  padding-bottom: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gameplay-text .star {
+  color: gold;
+  margin-right: 8px;
+  font-size: 18px;
+}
+
+/* === Desktop adaptation === */
+@media (min-width: 1200px) {
+  .section-title h2 {
+    font-size: 48px;
+    font-family: 'DynaPuff', sans-serif;
+    font-weight: 400;
+  }
+.gameplay-section {
+  padding-top: 144px;
+}
+  .gameplay-content {
+    width: 1072px;
+    flex-direction: row;
+    text-align: left;
+    gap: 40px;
+    align-items: flex-start;
+  }
+
+  .gameplay-text {
+    width: 556px;
+    margin: 24px 0 24px 63px;
+    flex: 1;
+    order: 2;
+  }
+
+  .gameplay-image {
+    margin-top: 0;
+    order:1;
+  }
+    .gameplay-image img {
+      width: 453px;
+    }
+  .gameplay-text h3 {
+    margin-bottom: 24px;
+    font-size: 24px;
+    font-weight: 500;
+  }
+
+  .gameplay-text p {
+    font-size: 18px;
+    font-weight: 400;
+  }
+  .gameplay-text ul {
+    font-size: 18px;
+    font-weight: 400;
+    padding-top: 24px;
+  }
+
+  .gameplay-text li {
+    justify-content: left;
+    padding-bottom: 24px ;
+  }
+}

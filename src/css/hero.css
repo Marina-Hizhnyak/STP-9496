@@ -72,7 +72,7 @@
 
 @media (min-width: 1200px) {
   .hero {
-    padding: 48px 0;
+    padding-top: 48px;
   }
 
   .hero__container {

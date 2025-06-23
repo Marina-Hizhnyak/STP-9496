@@ -81,6 +81,10 @@
 
 /* Desktop styles */
 @media screen and (min-width: 1200px) {
+
+  .about-section {
+    padding-top: 144px;
+    }
   .about-content {
     flex-direction: row;
     justify-content: space-between;
@@ -114,7 +118,7 @@
 
   .section-title span {
     font-family: 'DynaPuff', sans-serif;
-    font-size: 40px;
+    font-size: 48px;
     font-weight: 400;
   }
   .section-title {
