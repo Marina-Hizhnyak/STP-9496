@@ -12,11 +12,11 @@
   margin-bottom: 16px;
 }
 
-.section-title .line {
+/* .section-title .line {
   flex: 1;
   height: 1px;
   background-color: #000;
-}
+} */
 
 .section-title h2 {
   margin: 0 4px;
