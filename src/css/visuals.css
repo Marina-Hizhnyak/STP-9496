@@ -1,0 +1,48 @@
+.visuals-section {
+  padding: 24px 0;
+  font-family: 'Nunito', sans-serif;
+  text-align: center;
+}
+
+.visuals-subtitle {
+  font-family: 'Nunito', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  padding: 16px 0;
+  max-width: 288px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.visuals-description {
+  font-family: 'Nunito', sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+  max-width: 288px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+/* ===== Desktop styles ===== */
+@media (min-width: 1200px) {
+
+.visuals-section {
+    padding-top: 144px;
+  }
+
+  .visuals-subtitle {
+    max-width: 377px;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 40px;
+    padding: 0;
+  }
+
+  .visuals-description {
+    font-size: 18px;
+    max-width: 706px;
+    text-align: center;
+    font-weight: 400; 
+    padding-top: 24px;
+  }
+}

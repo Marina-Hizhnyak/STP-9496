@@ -1,0 +1,100 @@
+.strategy-section {
+  padding-top: 24px;
+  text-align: center;
+  font-family: 'Nunito', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+
+.strategy-subtitle {
+  font-family: 'Nunito', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 16px;
+}
+
+.strategy-description {
+  font-family: 'Nunito', sans-serif;
+  max-width: 288px;
+  padding: 8px 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.strategy-points {
+  display: block;
+  max-width: 288px;
+  margin: 0 auto;
+  padding-left: 1.2rem;
+  text-align: left;
+}
+
+.point {
+  font-family: 'Nunito', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5;
+  margin-bottom: 8px;
+  list-style: disc;
+}
+
+/* Desktop layout */
+@media (min-width: 1200px) {
+
+.strategy-subtitle {
+    font-family: 'Nunito', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 40px;
+  }
+
+  .strategy-description {
+    font-family: 'Nunito', sans-serif;
+    max-width: 351px;
+    padding-top: 24px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.5;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .strategy-section {
+      padding-top: 144px;
+      text-align: center;
+      font-family: 'Nunito', sans-serif;
+      width: 1200px;
+      margin: 0 auto;
+    }
+
+    .strategy-points {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 40px;
+      max-width: 1070px;
+      margin: 48px auto 0;
+      padding-left: 0;
+      text-align: center;
+    }
+
+    .point {
+      list-style: none;
+      border-bottom: 1px solid #333;
+      padding-bottom: 0.5rem;
+      font-size: 16px;
+      flex: 1 1 300px;
+      max-width: 300px;
+    }
+
+    .point.long {
+      max-width: 406px;
+      flex-basis: 100%;
+      margin-top: 2rem;
+      text-align: center;
+      margin: 0 auto;
+    }
+}
