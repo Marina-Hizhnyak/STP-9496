@@ -1,20 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
   <meta charset="UTF-8" />
-  <link rel="icon" type="image/svg+xml" href="/STP-9496/img/Favicon.png" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Google Fonts: DynaPuff & Nunito -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=DynaPuff&family=Nunito:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>STP-9496</title>
 
-  <!-- Google Fonts: DynaPuff & Nunito -->
-  <link href="https://fonts.googleapis.com/css2?family=DynaPuff&family=Nunito:wght@400;500;600;700&display=swap"
-    rel="stylesheet" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>STP-9496</title>
-  <script type="module" crossorigin src="/STP-9496/assets/main-Df3IJ2YD.js"></script>
-  <link rel="stylesheet" crossorigin href="/STP-9496/assets/main-Y862A2-6.css">
-  <link rel="stylesheet" crossorigin href="/STP-9496/assets/index-4b0s38P-.css">
-</head>
+    <main>
+      <div class="container message-container" data-message>
+  <p class="cookies-message">
+    We use cookies to improve your experience on our website. By browsing this
+    website, you agree to our use of cookies.
+  </p>
+  <div class="button-group">
+    <button type="button" class="accept-button">Accept cookies</button>
+    <button type="button" class="decline-button">Decline cookies</button>
+  </div>
+</div>
+
+      <div class="burger-menu" data-menu hidden>
+    <nav class="burger-nav">
+        <ul class="burger-nav-list">
+          <li class="burger-nav-item">
+            <a href="#home" class="nav-link">Home</a>
+            <img src="/STP-9496/img/arrow.png" alt="Arrow" class="arrow" />
+          </li>
+          <li class="burger-nav-item">
+            <a href="#about" class="nav-link">About</a>
+            <img src="/STP-9496/img/arrow.png" alt="Arrow" class="arrow" />
+          </li>
+          <li class="burger-nav-item">
+            <a href="#gameplay" class="nav-link">Gameplay</a>
+            <img src="/STP-9496/img/arrow.png" alt="Arrow" class="arrow" />
+          </li>
+          <li class="burger-nav-item">
+            <a href="#features" class="nav-link">Features</a>
+            <img src="/STP-9496/img/arrow.png" alt="Arrow" class="arrow" />
+          </li>
+          <li class="burger-nav-item">
+            <a href="#strategy" class="nav-link">Strategy</a>
+            <img src="/STP-9496/img/arrow.png" alt="Arrow" class="arrow" />
+          </li>
+          <li class="burger-nav-item">
+            <a href="#levels" class="nav-link">Levels</a>
+            <img src="/STP-9496/img/arrow.png" alt="Arrow" class="arrow" />
+          </li>
+          <li class="burger-nav-item">
+            <a href="#visuals" class="nav-link">Visuals</a>
+            <img src="/STP-9496/img/arrow.png" alt="Arrow" class="arrow" />
+          </li>
+          <li class="burger-nav-item">
+            <a href="#updates" class="nav-link">Updates</a>
+            <img src="/STP-9496/img/arrow.png" alt="Arrow" class="arrow" />
+          </li>
+          <li class="burger-nav-item">
+            <a href="#faq" class="nav-link">FAQ</a>
+            <img src="/STP-9496/img/arrow.png" alt="Arrow" class="arrow" />
+          </li>
+          <li class="burger-nav-item">
+            <a href="#contact" class="nav-link">Contact</a>
+            <img src="/STP-9496/img/arrow.png" alt="Arrow" class="arrow" />
+          </li>
+        </ul>
+      </nav>
+  </div>
+</div>
+
+    </main>
+<script type="module" crossorigin src="/STP-9496/assets/main-BVlmqpi8.js"></script>
+<link rel="stylesheet" crossorigin href="/STP-9496/assets/main-BlBQPGDw.css">
+<link rel="stylesheet" crossorigin href="/STP-9496/assets/index-D3avBkoJ.css">
 
 <body class="wrapper">
   <header>
@@ -64,8 +122,9 @@
 </header>
 
 
+
   <main>
-    <section class="hero">
+    <section class="hero" id="home">
   <div class="container hero__container">
     <div class="hero__phones">
       <picture>
@@ -76,8 +135,12 @@
     <div class="hero__content">
       <h1 class="hero__title">Container Adventure</h1>
 
-      <a href="https://play.google.com/store/apps/details?id=com.djrt.drtg&hl=en&gl=us " target="_blank"
-        rel="noopener noreferrer" class="hero__btn">
+      <a
+        href="https://play.google.com/store/apps/details?id=com.djrt.drtg&hl=en&gl=us "
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hero__btn"
+      >
         <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAFVSURBVHgB7ZS7SsNQHId/p1gEl57BVUhXp7g5dnWRDA4ODnkBIW9gMlRwUaogKmJcuhUdFEeT1UEEH8AELwj1khRKUND8zQWxVrFJE8WhH4RczjnfR0I4wID/TXNfxK9hkYhLl/C4cQZHFdAnhR/GOPwS0J4VQaMWWlW9n1Ch54woMge8lmSwYupQ70BnJDwTwpABZ1FJsjRZoDsCCGC0Ardqjd/Py/kEvkbA6UmoPzd0ug5+iStUsgc6ItwfhuFtQ/Rvw88mBCNGENLJiq4zBAJ4uwhj+QLiXevzAEHqnps6wD0PxtoCxPMmUKsADyPhYzc4NLygzMqwMwUi+Y0d34TynclaJB6DGshdZHkDvb7+ISeYKLAJtnqsfCd+Zwgp5PKJEYsJGjtsmEnWJQrEctMG+Ro72NtFLoSbnU20tbTp0PSMSpLEkSsW8amjUyV/8YC/5g33ro4sgZ0iswAAAABJRU5ErkJggg==" alt="Google Play" />
         Google Play
       </a>
@@ -88,112 +151,140 @@
           Conquer the supermarket challenge.
         </p>
         <p class="hero__text">
-          Get ready to enter a colorful world of chaos and fun.
-          In Container Adventure, your mission is to master the art
-          of supermarket elimination—match identical products, unlock
-          new aisles, and rise to the top of the leaderboard.
+          Get ready to enter a colorful world of chaos and fun. In Container
+          Adventure, your mission is to master the art of supermarket
+          elimination—match identical products, unlock new aisles, and rise to
+          the top of the leaderboard.
         </p>
       </div>
     </div>
   </div>
 </section>
+
     <section class="about-section">
   <div class="section-title">
-    <span class="section-text">About</span>
+    <span class="section-text" id="about">About</span>
   </div>
 
   <!-- Desktop layout -->
   <div class="about-content">
     <!-- Desktop bear -->
-    <img src="/STP-9496/assets/bear-desktop-DS4wBjL9.png" alt="Bear Desktop" class="about-img show-desktop" />
+    <img
+      src="/STP-9496/assets/bear-desktop-DS4wBjL9.png"
+      alt="Bear Desktop"
+      class="about-img show-desktop"
+    />
 
     <!-- Text -->
     <div class="about-text">
       <h3>Welcome to Container Adventure</h3>
       <p>
-        Container Adventure is a fast-paced, visually satisfying puzzle game where every level brings a new supermarket
-        layout to conquer. Slide, swap, and eliminate matching products as you navigate through aisles filled with
-        colorful chaos.
-        Whether you're a casual player looking to relax or a strategy-minded puzzler seeking the perfect combo chain,
-        this game delivers endless entertainment with a hint of mental challenge.
+        Container Adventure is a fast-paced, visually satisfying puzzle game
+        where every level brings a new supermarket layout to conquer. Slide,
+        swap, and eliminate matching products as you navigate through aisles
+        filled with colorful chaos. Whether you're a casual player looking to
+        relax or a strategy-minded puzzler seeking the perfect combo chain, this
+        game delivers endless entertainment with a hint of mental challenge.
       </p>
 
       <!-- Mobile bear image placed BELOW text -->
-      <img src="/STP-9496/assets/bear-mobile-CbquKXpg.png" alt="Bear Mobile" class="about-img show-mobile" />
+      <img
+        src="/STP-9496/assets/bear-mobile-CbquKXpg.png"
+        alt="Bear Mobile"
+        class="about-img show-mobile"
+      />
     </div>
 
     <!-- Desktop rabbit -->
     <img src="/STP-9496/assets/rabbit-C0c5_avF.png" alt="Rabbit" class="about-img show-desktop" />
   </div>
 </section>
+
     <section class="gameplay-section">
   <div class="section-title">
-    <h2>Gameplay</h2>
+    <h2 id="gameplay">Gameplay</h2>
   </div>
 
   <div class="gameplay-content">
     <!-- Image -->
     <div class="gameplay-image">
       <picture>
-        <source media="(min-width: 1200px)" srcset="/STP-9496/assets/boxes-desktop-DTpBop-L.png">
-        <img src="/STP-9496/assets/boxes-mobile-BavWfNM7.png" alt="Boxes">
+        <source media="(min-width: 1200px)" srcset="/STP-9496/assets/boxes-desktop-DTpBop-L.png" />
+        <img src="/STP-9496/assets/boxes-mobile-BavWfNM7.png" alt="Boxes" />
       </picture>
-
     </div>
 
     <!-- Text -->
     <div class="gameplay-text">
       <h3>Learn the Basics. Master the Flow.</h3>
       <p>
-        The core mechanic is simple—swap adjacent products and match three of the same kind to eliminate them. But
-        simplicity hides depth.
+        The core mechanic is simple—swap adjacent products and match three of
+        the same kind to eliminate them. But simplicity hides depth.
       </p>
 
       <ul>
         <li><span class="star">★</span> Clear stages with satisfying combos</li>
-        <li><span class="star">★</span> Earn high scores by planning your moves</li>
+        <li>
+          <span class="star">★</span> Earn high scores by planning your moves
+        </li>
       </ul>
 
       <p>
-        Use props to overcome tricky obstacles.<br>
+        Use props to overcome tricky obstacles.<br />
         The faster and smarter you play, the more stars and rewards you’ll earn.
       </p>
     </div>
   </div>
 </section>
+
     <section class="features-section">
   <div class="section-title">
-    <h2>Features</h2>
+    <h2 id="features">Features</h2>
   </div>
   <p class="section-subtitle">Why Players Love It?</p>
 
   <!-- Desktop Layout -->
   <div class="features-desktop">
-    <div class="balloon balloon1">Hundreds of levels with increasing complexity</div>
+    <div class="balloon balloon1">
+      Hundreds of levels with increasing complexity
+    </div>
     <div class="balloon balloon2">Clean and intuitive interface</div>
-    <div class="balloon balloon3">Unlock new supermarket zones as you progress</div>
+    <div class="balloon balloon3">
+      Unlock new supermarket zones as you progress
+    </div>
     <div class="balloon balloon4">Collect coins, boosters, and power-ups</div>
     <div class="balloon balloon5">Perfect balance of relaxation and focus</div>
-    <div class="balloon balloon6">Bright visuals with high-quality animations</div>
+    <div class="balloon balloon6">
+      Bright visuals with high-quality animations
+    </div>
 
-    <img src="/STP-9496/assets/hand-r-Dcq2xsvP.png" alt="Hands holding strings" class="hand-right">
-    <img src="/STP-9496/assets/heart-B_J_SKXX.png" alt="Heart" class="heart">
-    <img src="/STP-9496/assets/hand-l-CyJEfFMw.png" alt="Hands holding strings" class="hand-left">
+    <img src="/STP-9496/assets/hand-r-Dcq2xsvP.png" alt="Hands holding strings" class="hand-right" />
+    <img src="/STP-9496/assets/heart-B_J_SKXX.png" alt="Heart" class="heart" />
+    <img src="/STP-9496/assets/hand-l-CyJEfFMw.png" alt="Hands holding strings" class="hand-left" />
   </div>
 
   <!-- Mobile Layout -->
   <div class="features-mobile">
-    <div class="feature-tile green">Hundreds of levels with increasing complexity</div>
+    <div class="feature-tile green">
+      Hundreds of levels with increasing complexity
+    </div>
     <div class="feature-tile yellow">Clean and intuitive interface</div>
-    <div class="feature-tile blue">Unlock new supermarket zones as you progress</div>
+    <div class="feature-tile blue">
+      Unlock new supermarket zones as you progress
+    </div>
     <div class="feature-tile cyan">Collect coins, boosters, and power-ups</div>
-    <div class="feature-tile violet">Perfect balance of relaxation and focus</div>
-    <div class="feature-tile light-yellow">Bright visuals with high-quality animations</div>
+    <div class="feature-tile violet">
+      Perfect balance of relaxation and focus
+    </div>
+    <div class="feature-tile light-yellow">
+      Bright visuals with high-quality animations
+    </div>
   </div>
 </section>
+
     <section class="strategy-section">
   <div class="section-title">
-    <h2>Strategy</h2>
+    <h2 id="strategy">Strategy</h2>
   </div>
   <h3 class="strategy-subtitle">Think Before You Tap</h3>
   <p class="strategy-description">
@@ -204,14 +295,15 @@
     <li class="point">Know when to use boosters</li>
     <li class="point">Track combo patterns to trigger massive clears</li>
     <li class="point long">
-      Create chain reactions to gain bonus rewards.
-      Timing, awareness, and resource management are the keys to success.
+      Create chain reactions to gain bonus rewards. Timing, awareness, and
+      resource management are the keys to success.
     </li>
   </ul>
 </section>
+
     <section class="levels-section">
   <div class="section-title">
-    <h2>Levels</h2>
+    <h2 id="levels">Levels</h2>
   </div>
   <h3 class="levels-subtitle">From Local Shop to Hypermart Hero</h3>
 
@@ -222,24 +314,28 @@
     </div>
 
     <p class="levels-description">
-      Begin your journey in a simple convenience store. As you advance, you’ll unlock new
-      zones—frozen aisles, beverage racks, snack sections, and more. Each zone introduces new
-      obstacles and faster-paced challenges. There’s always something new waiting beyond the next shelf.
+      Begin your journey in a simple convenience store. As you advance, you’ll
+      unlock new zones—frozen aisles, beverage racks, snack sections, and more.
+      Each zone introduces new obstacles and faster-paced challenges. There’s
+      always something new waiting beyond the next shelf.
     </p>
   </div>
 </section>
+
     <section class="visuals-section">
   <div class="section-title">
-    <h2>Visuals</h2>
+    <h2 id="visuals">Visuals</h2>
   </div>
   <h3 class="visuals-subtitle">A Bright and Satisfying Experience</h3>
   <p class="visuals-description">
-    From polished animations to delightfully expressive product designs, Container Adventure creates an atmosphere
-    that’s both cheerful and clean.
-    Every tap feels responsive. Every elimination is rewarding.
-    You’ll enjoy the journey not just for the puzzles—but for the visual satisfaction along the way.
+    From polished animations to delightfully expressive product designs,
+    Container Adventure creates an atmosphere that’s both cheerful and clean.
+    Every tap feels responsive. Every elimination is rewarding. You’ll enjoy the
+    journey not just for the puzzles—but for the visual satisfaction along the
+    way.
   </p>
 </section>
+
     <section class="updates-section">
   <div class="section-title">
     <h2>Updates</h2>
@@ -440,433 +536,6 @@
     </picture>
   </div>
 </section>
-    <div class="burger-menu" data-menu hidden>
-    <nav class="burger-nav">
-        <ul class="burger-nav-list">
-          <li class="burger-nav-item">
-            <a href="#home" class="nav-link">Home</a>
-            <img src="/STP-9496/img/arrow.png" alt="Arrow" class="arrow" />
-          </li>
-          <li class="burger-nav-item">
-            <a href="#about" class="nav-link">About</a>
-            <img src="/STP-9496/img/arrow.png" alt="Arrow" class="arrow" />
-          </li>
-          <li class="burger-nav-item">
-            <a href="#gameplay" class="nav-link">Gameplay</a>
-            <img src="/STP-9496/img/arrow.png" alt="Arrow" class="arrow" />
-          </li>
-          <li class="burger-nav-item">
-            <a href="#features" class="nav-link">Features</a>
-            <img src="/STP-9496/img/arrow.png" alt="Arrow" class="arrow" />
-          </li>
-          <li class="burger-nav-item">
-            <a href="#strategy" class="nav-link">Strategy</a>
-            <img src="/STP-9496/img/arrow.png" alt="Arrow" class="arrow" />
-          </li>
-          <li class="burger-nav-item">
-            <a href="#levels" class="nav-link">Levels</a>
-            <img src="/STP-9496/img/arrow.png" alt="Arrow" class="arrow" />
-          </li>
-          <li class="burger-nav-item">
-            <a href="#visuals" class="nav-link">Visuals</a>
-            <img src="/STP-9496/img/arrow.png" alt="Arrow" class="arrow" />
-          </li>
-          <li class="burger-nav-item">
-            <a href="#updates" class="nav-link">Updates</a>
-            <img src="/STP-9496/img/arrow.png" alt="Arrow" class="arrow" />
-          </li>
-          <li class="burger-nav-item">
-            <a href="#faq" class="nav-link">FAQ</a>
-            <img src="/STP-9496/img/arrow.png" alt="Arrow" class="arrow" />
-          </li>
-          <li class="burger-nav-item">
-            <a href="#contact" class="nav-link">Contact</a>
-            <img src="/STP-9496/img/arrow.png" alt="Arrow" class="arrow" />
-          </li>
-        </ul>
-      </nav>
-  </div>
-</div>
-
-
-    <!-- <div class="terms ruls-conteiner">
-  <a href="/index.html" class="go-to-home">
-    <span>
-      <img src="/img/arrow-left.png" width="17" height="15" />
-    </span>
-    Go to Home
-  </a>
-  <h2 class="main-ruls-title">Terms and Conditions</h2>
-  <ul class="ruls-list">
-    <li>
-      <p class="ruls-text updated">Last Updated: 2025-06-03</p>
-      <p class="ruls-text">
-        These Terms and Conditions apply to the adventure website (hereinafter
-        referred to as "Website"). By accessing or using our services, you agree
-        to comply with and be bound by these Terms and Conditions. Please review
-        them carefully before using our Website.
-      </p>
-    </li>
-    <li>
-      <h3 class="ruls-title">Acceptance of Terms</h3>
-      <p class="ruls-text">
-        By accessing or using our Website, you acknowledge that you have read,
-        understood, and agree to be bound by these Terms and Conditions. If you
-        do not agree, please do not use the Website.
-      </p>
-    </li>
-    <li>
-      <h3 class="ruls-title">Intellectual Property</h3>
-      <p class="ruls-text">
-        All content, including text, images, graphics, and trademarks, belongs
-        to this website or its licensors and is protected by applicable
-        copyright and trademark laws. Unauthorized reproduction, modification,
-        or distribution is prohibited.  Any unauthorized commercial use, resale,
-        or redistribution of the Website’s content, including but not limited to
-        its design, layout, or code, is strictly prohibited. 
-      </p>
-    </li>
-    <li>
-      <h3 class="ruls-title">User Obligations</h3>
-      <ul class="pointed-list">
-        <li>You agree not to use the Website for any unlawful purposes.</li>
-        <li>
-          You must not attempt to interfere with the proper working of the
-          Website. 
-        </li>
-        <li>
-          Any attempt to reverse-engineer, decompile, or extract the source code
-          is strictly prohibited.
-        </li>
-      </ul>
-      <li>
-        <p class="ruls-text">
-          You may not use automated systems, bots, or scripts to access or
-          interact with the Website in any way that violates Google’s policies
-          on spam and automated queries.
-        </p>
-      </li>
-    </li>
-    <li>
-      <h3 class="ruls-title">Third-Party Services and External Links</h3>
-      <p class="ruls-text">
-        Please note that the Application utilizes third-party services that have
-        their own Terms and Conditions. Below are the links to the Terms and
-        Conditions of the third-party service providers used by the
-        Application: 
-      </p>
-      <ul class="pointed-list social">
-        <li>
-          <a href="https://policies.google.com/terms">Google Play Services</a>
-        </li>
-        <li>
-          <a href="https://www.google.com/analytics/terms/"
-            >Google Analytics for Firebase</a
-          >
-        </li>
-        <li>
-          <a href="https://mbasic.facebook.com/legal/terms/plain_text_terms/"
-            >Facebook </a
-          >
-        </li>
-      </ul>
-      <p class="ruls-text">
-        By clicking on third-party links, you acknowledge that these
-        services operate under their own terms and policies. We are not
-        responsible for any data collection, practices, or content on these
-        external sites. 
-      </p>
-    </li>
-    <li>
-      <h3 class="ruls-title">Limitation of Liability</h3>
-      <p class="ruls-text">
-        We are not responsible for any direct, indirect, incidental, or
-        consequential damages arising from the use of our Website.  We do not
-        guarantee uninterrupted or error-free operation of the Website. We are
-        not liable for any loss of data, business interruptions, or security
-        breaches that may occur.
-      </p>
-    </li>
-    <li>
-      <h3 class="ruls-title">Privacy and Data Usage</h3>
-      <p class="ruls-text">
-        The Website may collect and process personal data as described in our
-        Privacy Policy.  We do not sell or rent your personal data to third
-        parties. We only share data with partners for analytics, security, and
-        functionality improvements. 
-      </p>
-    </li>
-    <li>
-      <h3 class="ruls-title">Changes to Terms</h3>
-      <p class="ruls-text">
-        We reserve the right to modify these Terms at any time. Continued use of
-        the Website after changes signifies acceptance of the updated Terms. 
-        Users will be notified of material changes to these terms via an update
-        on the Website or through email (if provided). 
-      </p>
-    </li>
-    <li>
-      <h3 class="ruls-title">Contact Us</h3>
-      <p class="ruls-text">
-        If you have any questions or suggestions about the Terms and Conditions,
-        please do not hesitate to contact us at info@adventuregi.pro.
-      </p>
-    </li>
-  </ul>
-</div>
- -->
-    <!-- <div class="privacy ruls-conteiner">
-  <a href="/index.html" class="go-to-home">
-    <span>
-      <img src="/img/arrow-left.png" width="17" height="15" />
-    </span>
-    Go to Home
-  </a>
-  <h2 class="main-ruls-title">Privacy Policy</h2>
-  <ul class="ruls-list">
-    <li>
-      <p class="ruls-text updated">Last Updated: 2025-06-03</p>
-      <p class="ruls-text">
-        This Privacy Policy applies to the adventuregi.pro website (hereinafter
-        referred to as "Website"). By accessing or using our services, you agree
-        to the collection and use of information as described in this policy. 
-      </p>
-    </li>
-    <li>
-      <h3 class="ruls-title">Information We Collect</h3>
-      <p class="ruls-text">The Website may collect the following types of data:
-        </p>
-      <p>
-        <ul class="pointed-list">
-            <li>Personal Information: Name, email address, and other details if voluntarily provided. </li>
-            <li>Technical Data: IP address, browser type, and device information for analytics purposes. </li>
-            <li>Cookies & Tracking: We use cookies to enhance user experience and track usage trends.</li>
-        </ul>
-      </p>
-    </li>
-    <li>
-      <h3 class="ruls-title">How We Use Your Information</h3>
-       <p class="ruls-text">The data we collect may be used for:
-        </p>
-        <ul class="pointed-list">
-            <li>Providing and improving our services.</li>
-            <li>Enhancing website security and preventing fraud.</li>
-            <li>Analyzing trends and user behavior through analytics tools.</li>
-        </ul>
-    </li>
-    <li>
-      <h3 class="ruls-title">Cookies and Tracking Technologies</h3>
-        <p class="ruls-text">We use cookies and similar technologies to personalize content, track website performance, and improve user experience. Users can manage or disable cookies through browser settings.
-        </p>
-    </li>
-    <li>
-      <h3 class="ruls-title ">Third-Party Services</h3>
-      <p class="ruls-text">
-        We may use third-party services such as Google Analytics to monitor traffic and improve services. These services have their own privacy policies, which can be reviewed on their respective websites. Below are the links to the Privacy Policy of the third-party service providers used by the Application: 
-      </p>
-      <ul class="pointed-list media" >
-        <li>
-          <a href="https://policies.google.com/terms">Google Play Services</a>
-        </li>
-        <li>
-          <a href="https://www.google.com/analytics/terms/"
-            >Google Analytics for Firebase</a
-          >
-        </li>
-        <li>
-          <a href="https://mbasic.facebook.com/legal/terms/plain_text_terms/"
-            >Facebook </a
-          >
-        </li>
-      </ul>
-    </li>
-    <li>
-      <h3 class="ruls-title">Data Security</h3>
-      <p class="ruls-text">
-        We implement security measures to protect collected information from unauthorized access or misuse. However, no method of transmission over the internet is 100% secure. 
-      </p>
-    </li>
-    <li>
-      <h3 class="ruls-title">Children’s Privacy</h3>
-      <p class="ruls-text">
-        Our Website is not intended for children under 13, and we do not knowingly collect personal data from them. If we become aware that a child has provided information, we will take steps to delete it. 
-      </p>
-    </li>
-    <li>
-      <h3 class="ruls-title">Changes to This Policy</h3>
-      <p class="ruls-text">
-        We may update this Privacy Policy periodically. Users will be notified of significant changes through the Website. Continued use of the Website after modifications implies acceptance of the updated policy. 
-      </p>
-    </li>
-    <li>
-      <h3 class="ruls-title">Your Rights</h3>
-      <p class="ruls-text">
-        Under applicable laws (e.g., GDPR, CCPA), you have rights to:
-      </p>
-      <ul class="pointed-list">
-        <li>Access, update, or delete your personal data.</li>
-        <li>Withdraw consent for data collection.</li>
-        <li>Request a copy of the data we store about you.</li>
-      </ul>
-      <p class="ruls-text">To exercise your rights, contact us via email.</p>
-    </li>
-    <li>
-        <h3 class="ruls-title">Contact Us</h3>
-        <p class="ruls-text">
-            If you have any questions or concerns about this Privacy Policy, please contact us at info@adventuregi.pro. 
-        </p>
-      </li>
-  </ul>
-</div>
- -->
-    <!-- <div class="cookies ruls-conteiner">
-  <a href="/index.html" class="go-to-home">
-    <span>
-      <img src="/img/arrow-left.png" width="17" height="15" />
-    </span>
-    Go to Home
-  </a>
-  <h2 class="main-ruls-title">Cookies Policy</h2>
-  <ul class="ruls-list">
-    <li>
-      <p class="ruls-text updated">Last Updated: 2025-06-03</p>
-      <p class="ruls-text">
-        This Cookies Policy explains what cookies are and how we use them. You
-        should read this policy to understand what types of cookies we use, what
-        data they collect, and how you can manage your preferences.  Cookies do
-        not typically contain personally identifiable information. However, in
-        some cases, personal data that we store about you may be linked to
-        information obtained from cookies. For more details, see our Privacy
-        Policy.
-      </p>
-    </li>
-    <li>
-      <h3 class="ruls-title">What Are Cookies?</h3>
-      <p class="ruls-text">
-        Cookies are small text files stored on your device when you visit a
-        website. They help websites function properly, remember preferences, and
-        collect analytical data.
-      </p>
-    </li>
-    <li>
-      <h3 class="ruls-title">How We Use Cookies</h3>
-      <p class="ruls-text">We use cookies to:</p>
-      <ul class="pointed-list">
-        <li>Ensure the website functions correctly.</li>
-        <li>Analyze user behavior and improve website performance.</li>
-        <li>Personalize your experience and remember preferences.</li>
-      </ul>
-    </li>
-    <li>
-      <h3 class="ruls-title">Types of Cookies We Use</h3>
-      <p class="ruls-text">
-        Cookies can be "session" or "persistent." Session cookies expire when
-        you close your browser, while persistent cookies remain stored until
-        manually deleted or they reach expiration.
-      </p>
-      <ul>
-        <li>
-          <ul class="pointed-list">
-            <li><h4 class="different-cookies-title">Necessary Cookies</h4></li>
-          </ul>
-          <p class="ruls-text">
-            Type: Session Cookies Purpose: Required for core website functions
-            and security.
-          </p>
-        </li>
-        <li>
-          <ul class="pointed-list">
-            <li><h4 class="different-cookies-title">Functional Cookies</h4></li>
-          </ul>
-
-          <p class="ruls-text">
-            Type: Persistent Cookies Purpose: Remember user preferences (e.g.,
-            language, login details).
-          </p>
-        </li>
-        <li>
-          <ul class="pointed-list">
-            <li><h4 class="different-cookies-title">Analytics Cookies</h4></li>
-          </ul>
-          <p class="ruls-text">
-            Type: Persistent Cookies Purpose: Track user behavior and website
-            performance using Google Analytics.
-          </p>
-        </li>
-        <li>
-          <ul class="pointed-list">
-            <li>
-              <h4 class="different-cookies-title">Advertising Cookies</h4>
-            </li>
-          </ul>
-          <p class="ruls-text">
-            Type: Persistent Cookies Purpose: Show relevant ads based on your
-            browsing behavior.
-          </p>
-        </li>
-      </ul>
-    </li>
-    <li>
-      <h3 class="ruls-title">Managing Cookies</h3>
-      <p class="ruls-text">
-        You can manage your cookie preferences through your browser settings. If
-        you disable cookies, some features of the website may not function
-        properly.
-      </p>
-      <ul class="pointed-list">
-        <li>
-          <a href="https://support.google.com/accounts/answer/32050"
-            >Manage cookies in Chrome
-          </a>
-        </li>
-        <li>
-          <a
-            href="https://support.mozilla.org/en-US/kb/clear-cookies-and-site-data-firefox?redirectslug=delete-cookies-remove-info-websites-stored&redirectlocale=en-US"
-            >Manage cookies in Firefox </a
-          >
-        </li>
-        <li>
-          <a
-            href="https://support.microsoft.com/ru-ru/topic/%D1%83%D0%B4%D0%B0%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-%D1%84%D0%B0%D0%B9%D0%BB%D0%BE%D0%B2-cookie-%D0%B2-internet-explorer-bca9446f-d873-78de-77ba-d42645fa52fc"
-            >Manage cookies in Internet Explorer </a
-          >
-        </li>
-        <li>
-          <a
-            href="https://support.microsoft.com/ru-ru/topic/%D1%83%D0%B4%D0%B0%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-%D1%84%D0%B0%D0%B9%D0%BB%D0%BE%D0%B2-cookie-%D0%B2-internet-explorer-bca9446f-d873-78de-77ba-d42645fa52fc"
-            >Manage cookies in Safari </a
-          >
-        </li>
-      </ul>
-    </li>
-    <li>
-      <h3 class="ruls-title">Third-Party Cookies</h3>
-      <p class="ruls-text">
-        Some third-party services (e.g., Google Analytics, advertising networks)
-        may use cookies to collect information. These cookies are subject to
-        their own privacy policies.
-      </p>
-    </li>
-    <li>
-      <h3 class="ruls-title">Changes to This Policy</h3>
-      <p class="ruls-text">
-        We may update this Cookies Policy periodically. Significant changes will
-        be communicated via the website.
-      </p>
-    </li>
-    <li>
-      <h3 class="ruls-title">Contact Us</h3>
-      <p class="ruls-text">
-        If you have any questions about this Cookies Policy, you can contact us
-        at
-        <a href="https://www.figma.com/exit?url=about%3Ablank"
-          >info@adventuregi.pro.</a
-        >
-      </p>
-    </li>
-  </ul>
-</div>
- -->
   </main>
 
   <footer>
