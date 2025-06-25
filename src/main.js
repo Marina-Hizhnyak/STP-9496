@@ -1,2 +1,4 @@
-// import './js/burgerMenu';
+
+import './js/burger-menu';
 import './js/faq';
+
