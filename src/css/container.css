@@ -5,10 +5,21 @@
   padding: 0 16px;
 }
 
+.ruls-conteiner {
+  max-width: 320px;
+  padding: 16px 16px 24px 16px;
+  margin: 0 auto;
+}
+
 @media (min-width: 1200px) {
   .container {
     padding: 0;
     width: 1200px;
+  }
+
+  .ruls-conteiner {
+    max-width: 1200px;
+    padding: 40px 64px;
   }
 }
 
