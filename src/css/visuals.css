@@ -28,6 +28,8 @@
 
 .visuals-section {
     padding-top: 144px;
+    width: 1200px;
+    margin: 0 auto;
   }
 
   .visuals-subtitle {
@@ -42,7 +44,7 @@
     font-size: 18px;
     max-width: 706px;
     text-align: center;
-    font-weight: 400; 
+    font-weight: 400;
     padding-top: 24px;
   }
 }

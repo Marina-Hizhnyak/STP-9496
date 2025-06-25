@@ -107,6 +107,8 @@ display: none;
 
   .levels-section {
     padding-top: 144px;
+    width: 1200px;
+    margin: 0 auto;
   }
 
 }

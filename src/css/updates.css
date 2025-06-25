@@ -1,0 +1,40 @@
+
+.descktop-image {
+  display: none;
+}
+.mobile-image {
+  display: block;
+  width: 223px;
+  height: auto;
+  margin: 0 auto;
+}
+.updates-subtitle {
+  font-family: 'Nunito', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  margin: 16px 0;
+  text-align: center;
+}
+@media (min-width: 1200px) {
+  .descktop-image {
+    display: block;
+    width: 484px;
+    margin: 0 auto;
+    padding-top: 48px;
+  }
+  .mobile-image {
+    display: none;
+  }
+  .updates-subtitle {
+    font-family: 'Nunito', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    padding-top: 16px;
+    text-align: center;
+  }
+  .updates-section {
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 144px;
+  }
+}
