@@ -1,1 +1,1 @@
-{"version":3,"file":"index.js","sources":["../src/js/faq.js"],"sourcesContent":["document.querySelectorAll('.faq-box').forEach(box => {\n  box.addEventListener('click', () => {\n    const faqItem = box.closest('.faq-item');\n    faqItem.classList.toggle('open');\n  });\n});"],"names":["box"],"mappings":"ssBAAA,SAAS,iBAAiB,UAAU,EAAE,QAAQA,GAAO,CACnDA,EAAI,iBAAiB,QAAS,IAAM,CAClBA,EAAI,QAAQ,WAAW,EAC/B,UAAU,OAAO,MAAM,CACnC,CAAG,CACH,CAAC"}
+{"version":3,"file":"index.js","sources":[],"sourcesContent":[],"names":[],"mappings":""}
