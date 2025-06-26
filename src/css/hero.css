@@ -8,7 +8,6 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
-  gap: 13px;
   z-index: 100;
 }
 
@@ -33,9 +32,9 @@
 .hero__title {
   font-family: 'DynaPuff', sans-serif;
   font-size: 32px;
-  margin-bottom: 20px;
   white-space: normal;
   order: 1;
+  line-height: 1.2;
 }
 
 .hero__btn {
@@ -141,19 +140,24 @@
   }
 
   .hero__container {
+    width: 1136px;
     flex-direction: row;
     align-items: center;
     text-align: left;
+    gap: 13px;
   }
-
+.hero__phones {
+  margin-top: 0px;
+}
   .hero__phones img {
-    width: 430px;
+    width: 393px;
   }
 
   .hero__content {
-    width: 707px;
+    width: 667px;
     align-items: flex-start;
     text-align: left;
+    margin-top: 0px;
   }
 
   .hero__title {
@@ -161,12 +165,11 @@
     font-family: 'DynaPuff', sans-serif;
     font-size: 64px;
     white-space: nowrap;
-    margin-bottom: 0;
   }
 
   .hero__btn {
     width: 341px;
-    margin: 49px auto 0;
+    margin: 48px auto 0;
     order: 4;
   }
 
@@ -207,134 +210,4 @@
     margin: 0;
   }
 }
-/* .hero {
-  padding: 60px 0;
-  background-color: #fff;
-}
 
-.hero__container {
-  display: flex;
-  align-items: center;
-  gap: 13px;
-  flex-wrap: wrap;
-}
-
-.hero__phones img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-  width: 430px;
-}
-
-.hero__content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  width: 707px;
-}
-
-.hero__title {
-  font-family: 'DynaPuff', sans-serif;
-  font-size: 64px;
-  margin-bottom: 20px;
-  white-space: nowrap;
-  order: 1;
-}
-
-.hero__btn {
-  display: inline-flex;
-  font-family: 'Nunito', sans-serif;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  width: 341px;
-  /* height: 56px; */
-/* font-size: 14px;
-  gap: 10px;
-  background-color: #ffd7aa;
-  padding: 16px 24px;
-  border-radius: 16px;
-  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
-  /* font-weight: bold; */
-/* text-decoration: none;
-  color: #000;
-  margin: 20px auto;
-  order: 4;
-} */
-
-/* .hero__subtitle {
-  font-family: 'Nunito', sans-serif;
-  font-size: 32px;
-  font-weight: 500;
-  margin-bottom: 16px;
-  display: block;
-  text-align: center;
-}
-
-.hero__text {
-  font-family: 'Nunito', sans-serif;
-  font-size: 22px;
-  display: block;
-  text-align: center;
-}
-
-.hero_block {
-  width: 100%;
-  max-width: 615px;
-  margin: 0 auto;
-  text-align: center;
-  order: 2;
-} */
-
-/* @media (max-width: 1200px) {
-  .hero__container {
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .hero__phones img {
-    width: 288px;
-    margin: 0 auto;
-  }
-
-  .hero__content {
-    max-width: 100%;
-  }
-
-  .hero__title {
-    display: block;
-    width: 288px;
-    font-family: 'Nunito', sans-serif;
-    font-size: 32px;
-    margin-bottom: 20px;
-    white-space: wrap;
-  }
-
-  .hero__btn {
-    width: 288px;
-    /* height: 56px; */
-/* border-radius: 16px;
-    order: 2;
-  } */
-
-/* .hero__subtitle {
-    font-family: 'Nunito', sans-serif;
-    font-size: 20px;
-    font-weight: 600;
-  }
-
-  .hero__text {
-    font-family: 'Nunito', sans-serif;
-    font-size: 20px;
-    display: block;
-    text-align: center;
-  }
-
-    .hero_block {
-      width: 288px;
-      margin: 0 auto;
-      text-align: center;
-      order: 3;
-    } */
-/* }  */
