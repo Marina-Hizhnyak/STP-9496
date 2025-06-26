@@ -140,11 +140,11 @@
   }
 
   .hero__container {
-    width: 1136px;
+    width: 1072px;
     flex-direction: row;
     align-items: center;
     text-align: left;
-    gap: 13px;
+    gap: 12px;
   }
 .hero__phones {
   margin-top: 0px;
@@ -158,13 +158,14 @@
     align-items: flex-start;
     text-align: left;
     margin-top: 0px;
+    margin-bottom: 0px;
   }
 
   .hero__title {
     width: 100%;
     font-family: 'DynaPuff', sans-serif;
     font-size: 64px;
-    white-space: nowrap;
+    text-align: center;
   }
 
   .hero__btn {
@@ -179,12 +180,13 @@
   }
 
   .hero__text {
+    font-family: 'Nunito', sans-serif;
     font-size: 22px;
   }
 
   .hero_block {
     width: 100%;
-    padding: 24px 24px 0 24px;
+    padding: 24px 26px 0 26px;
     text-align: center;
     order: 3;
   }
@@ -210,4 +212,3 @@
     margin: 0;
   }
 }
-
