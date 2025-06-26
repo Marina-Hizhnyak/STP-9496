@@ -37,3 +37,15 @@ body {
 main {
   flex: 1;
 }
+
+.about-section,
+.gameplay-section,
+.features-section,
+.strategy-section,
+.levels-section,
+.visuals-section,
+.updates-section,
+.faq-section,
+.contact-section {
+  scroll-margin-top: 50px;
+}

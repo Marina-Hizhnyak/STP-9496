@@ -1,10 +1,28 @@
 .header {
-  position: relative;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 320px;
+  width: 100%;
+  max-width: 320px;
+  margin: 0 auto;
   padding: 0 16px;
+  height: 56px;
+  background-color: #fafafa;
+  margin-bottom: 100px;
+  /* color: opacity; */
+  z-index: 1000;
+}
+
+.menu-btn {
+  position: relative;
+}
+
+main {
+  padding-top: 16px;
 }
 
 .logo {
@@ -86,12 +104,17 @@
 
 @media screen and (min-width: 1200px) {
   .header {
+    position: fixed;
     margin: 0 auto;
     border-radius: 16px;
-    width: 1072px;
+    max-width: 1072px;
     height: 100px;
     margin-top: 24px;
     background-color: #fed7aa;
+  }
+
+  main {
+    padding-top: 124px;
   }
 
   .logo {
