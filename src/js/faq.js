@@ -1,4 +1,4 @@
-document.querySelectorAll('.faq-box').forEach(box => {
+document.querySelectorAll('[data-faq-box]').forEach(box => {
   box.addEventListener('click', () => {
     const faqItem = box.closest('.faq-item');
     faqItem.classList.toggle('open');

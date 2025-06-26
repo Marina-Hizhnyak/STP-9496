@@ -1,3 +1,7 @@
+.ruls-page {
+  padding-top: 40px !important;
+}
+
 .go-to-home {
   display: flex;
   gap: 8px;

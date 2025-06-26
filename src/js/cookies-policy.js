@@ -1,23 +1,26 @@
 document.addEventListener('DOMContentLoaded', () => {
   const messageBox = document.querySelector('[data-message]');
-  const acceptBtn = document.querySelector('.accept-button');
-  const declineBtn = document.querySelector('.decline-button');
+  const acceptBtn = document.querySelector('[data-accept-button]');
+  const declineBtn = document.querySelector('[data-decline-button]');
 
-  setTimeout(() => {
-    messageBox.removeAttribute('hidden');
-  }, 1000);
+  if (!sessionStorage.getItem('cookies-consent')) {
+    setTimeout(() => {
+      messageBox.removeAttribute('hidden');
+    }, 1000);
+  }
 
-  const hideMessage = () => {
+  const hideMessage = consent => {
     messageBox.setAttribute('hidden', '');
+    sessionStorage.setItem('cookies-consent', consent);
   };
 
-  acceptBtn.addEventListener('click', hideMessage);
-  declineBtn.addEventListener('click', hideMessage);
+  acceptBtn.addEventListener('click', () => hideMessage('accepted'));
+  declineBtn.addEventListener('click', () => hideMessage('declined'));
 
   document.addEventListener('click', e => {
-    const isMessageOpen = !messageBox.hasAttribute('hidden');
-    if (isMessageOpen && !messageBox.contains(e.target)) {
-      messageBox.setAttribute('hidden', '');
+    const isOpen = !messageBox.hasAttribute('hidden');
+    if (isOpen && !messageBox.contains(e.target)) {
+      hideMessage('dismissed');
     }
   });
 });

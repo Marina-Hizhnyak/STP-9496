@@ -39,6 +39,7 @@
 
 .hero__btn {
   width: 288px;
+  font-weight: 400;
   font-size: 14px;
   padding: 16px 24px;
   border-radius: 16px;
@@ -146,9 +147,9 @@
     text-align: left;
     gap: 12px;
   }
-.hero__phones {
-  margin-top: 0px;
-}
+  .hero__phones {
+    margin-top: 0px;
+  }
   .hero__phones img {
     width: 393px;
   }
