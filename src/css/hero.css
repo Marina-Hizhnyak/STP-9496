@@ -1,9 +1,15 @@
+.hero {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
 .hero__container {
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
   gap: 13px;
+  z-index: 100;
 }
 
 .hero__phones img {
@@ -69,6 +75,65 @@
   order: 2;
 }
 
+/* COOKIES MESSAGE */
+.message-container {
+  position: absolute;
+  border: 1px solid #d4d4d4;
+  border-radius: 24px;
+  max-width: 100%;
+  height: 322px;
+  background-color: #fafafa;
+  margin: 0 auto;
+  padding: 40px 16px;
+  top: 276px;
+  z-index: 101;
+}
+.cookies-message {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 16px;
+  text-align: center;
+  color: #332929;
+}
+
+.button-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 24px;
+}
+
+.accept-button {
+  border-radius: 16px;
+  padding: 16px;
+  width: 288px;
+  height: 57px;
+  box-shadow: 4px 4px 4px 0 rgba(0, 0, 0, 0.25);
+  background-color: #fed7aa;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  color: #171717;
+  border: none;
+}
+
+.decline-button {
+  border-radius: 16px;
+  padding: 16px;
+  width: 288px;
+  height: 57px;
+  box-shadow: 4px 4px 4px 0 rgba(0, 0, 0, 0.25);
+  background-color: #fff7ed;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  color: #171717;
+  border: none;
+}
 
 @media (min-width: 1200px) {
   .hero {
@@ -120,6 +185,27 @@
     text-align: center;
     order: 3;
   }
+
+  /* COOKIES MESSAGE */
+  .message-container {
+    height: 291px;
+    top: 355px;
+    padding: 64px 232px;
+  }
+
+  .button-group {
+    flex-direction: row;
+    gap: 24px;
+  }
+  .cookies-message {
+    font-weight: 500;
+    font-size: 24px;
+    margin-bottom: 40px;
+  }
+
+  .accept-button {
+    margin: 0;
+  }
 }
 /* .hero {
   padding: 60px 0;
@@ -164,14 +250,14 @@
   text-align: center;
   width: 341px;
   /* height: 56px; */
-  /* font-size: 14px;
+/* font-size: 14px;
   gap: 10px;
   background-color: #ffd7aa;
   padding: 16px 24px;
   border-radius: 16px;
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
   /* font-weight: bold; */
-  /* text-decoration: none;
+/* text-decoration: none;
   color: #000;
   margin: 20px auto;
   order: 4;
@@ -201,7 +287,6 @@
   order: 2;
 } */
 
-
 /* @media (max-width: 1200px) {
   .hero__container {
     flex-direction: column;
@@ -229,11 +314,11 @@
   .hero__btn {
     width: 288px;
     /* height: 56px; */
-    /* border-radius: 16px;
+/* border-radius: 16px;
     order: 2;
   } */
 
-  /* .hero__subtitle {
+/* .hero__subtitle {
     font-family: 'Nunito', sans-serif;
     font-size: 20px;
     font-weight: 600;
@@ -253,5 +338,3 @@
       order: 3;
     } */
 /* }  */
-
-
