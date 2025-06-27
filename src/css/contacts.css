@@ -44,6 +44,8 @@
 /* Desktop */
 @media (min-width: 1200px) {
   .contact-wrapper {
+    width: 1072px;
+    margin: 0 auto;
     flex-direction: row;
     justify-content: center;
     gap: 40px;

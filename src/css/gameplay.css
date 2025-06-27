@@ -93,6 +93,7 @@
 }
   .gameplay-content {
     width: 1072px;
+    margin: 0 auto;
     flex-direction: row;
     text-align: left;
     gap: 40px;

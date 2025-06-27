@@ -98,7 +98,7 @@
 
 .balloon1 {
   top: -5%;
-  left: 5%;
+  left: 6%;
   background: #e7ffe7;
   transform: rotate(-20deg);
 }
@@ -174,7 +174,7 @@
   height: 350px;
   bottom: -350px;
   left: 55%;
-  transform: rotate(-10deg);
+  transform: rotate(-7deg);
 }
 
 .balloon2::after {
